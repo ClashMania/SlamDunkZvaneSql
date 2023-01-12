@@ -1,0 +1,87 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="F20A5FE7-7B39-4506-5854-775D808BD1A9" name="TIM">
+<createdBy>Ucenik</createdBy>
+<createdTime>2023-01-12 12:48:30 UTC</createdTime>
+<ownerDesignName>SlamDunkZvaneGabrielCondric</ownerDesignName>
+<engineerTo>
+<item key="40009790-805F-D52D-8FD2-35EFA8E061A8" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<shortName>TIM</shortName>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="ID_tima" id="08BEF693-E62D-4C2B-F140-38B4B281D84C">
+<createdBy>Ucenik</createdBy>
+<createdTime>2023-01-12 12:49:01 UTC</createdTime>
+<ownerDesignName>SlamDunkZvaneGabrielCondric</ownerDesignName>
+<engineerTo>
+<item key="40009790-805F-D52D-8FD2-35EFA8E061A8" value="true"/>
+</engineerTo>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="Ime_tima" id="79C994A5-9CC6-F44A-68E3-33153DAAD1C6">
+<createdBy>Ucenik</createdBy>
+<createdTime>2023-01-12 12:49:01 UTC</createdTime>
+<ownerDesignName>SlamDunkZvaneGabrielCondric</ownerDesignName>
+<engineerTo>
+<item key="40009790-805F-D52D-8FD2-35EFA8E061A8" value="true"/>
+</engineerTo>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="Broj_igraca" id="49379B77-2C87-D0BB-B4CF-81A748C23706">
+<createdBy>Ucenik</createdBy>
+<createdTime>2023-01-12 12:49:01 UTC</createdTime>
+<ownerDesignName>SlamDunkZvaneGabrielCondric</ownerDesignName>
+<engineerTo>
+<item key="40009790-805F-D52D-8FD2-35EFA8E061A8" value="true"/>
+</engineerTo>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="Popust" id="21890B20-3ADF-3593-717D-D7AAFCC0C4D8">
+<createdBy>Ucenik</createdBy>
+<createdTime>2023-01-12 12:49:02 UTC</createdTime>
+<ownerDesignName>SlamDunkZvaneGabrielCondric</ownerDesignName>
+<engineerTo>
+<item key="40009790-805F-D52D-8FD2-35EFA8E061A8" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="ID_kupca" id="38565F67-1E3A-0A2D-B947-CBC7AEA7ABCD">
+<createdBy>Ucenik</createdBy>
+<createdTime>2023-01-12 12:52:07 UTC</createdTime>
+<generatorID>EA3A45E7-0483-7DC3-0786-061077303609</generatorID>
+<ownerDesignName>SlamDunkZvaneGabrielCondric</ownerDesignName>
+<engineerTo>
+<item key="40009790-805F-D52D-8FD2-35EFA8E061A8" value="true"/>
+</engineerTo>
+<referedAttribute>F88CCC83-4C9F-EC51-9D1C-59B8E7E2EA11</referedAttribute>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="64CCE10F-C7FC-768F-6405-81BB802ECE77" name="TIM PK">
+<createdBy>Ucenik</createdBy>
+<createdTime>2023-01-12 12:50:36 UTC</createdTime>
+<ownerDesignName>SlamDunkZvaneGabrielCondric</ownerDesignName>
+<engineerTo>
+<item key="40009790-805F-D52D-8FD2-35EFA8E061A8" value="true"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>08BEF693-E62D-4C2B-F140-38B4B281D84C</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

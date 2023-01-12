@@ -1,0 +1,54 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="45D147CA-DE25-7AF6-9430-1252F6634E62" name="SKLADISTE">
+<createdBy>Ucenik</createdBy>
+<createdTime>2023-01-12 11:58:39 UTC</createdTime>
+<ownerDesignName>SlamDunkZvaneGabrielCondric</ownerDesignName>
+<engineerTo>
+<item key="40009790-805F-D52D-8FD2-35EFA8E061A8" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<shortName>SKLD</shortName>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="ID_skladista" id="030035AB-0126-6EC7-1F5F-04C4D4385B8A">
+<createdBy>Ucenik</createdBy>
+<createdTime>2023-01-12 11:59:06 UTC</createdTime>
+<ownerDesignName>SlamDunkZvaneGabrielCondric</ownerDesignName>
+<engineerTo>
+<item key="40009790-805F-D52D-8FD2-35EFA8E061A8" value="true"/>
+</engineerTo>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="Kolicina" id="ADAF563F-DA82-B303-FD0B-2F253185B1F9">
+<createdBy>Ucenik</createdBy>
+<createdTime>2023-01-12 11:59:07 UTC</createdTime>
+<ownerDesignName>SlamDunkZvaneGabrielCondric</ownerDesignName>
+<engineerTo>
+<item key="40009790-805F-D52D-8FD2-35EFA8E061A8" value="true"/>
+</engineerTo>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="1E78255E-8B16-6174-81BC-000569A5D771" name="SKLADISTE PK">
+<createdBy>Ucenik</createdBy>
+<createdTime>2023-01-12 12:02:36 UTC</createdTime>
+<ownerDesignName>SlamDunkZvaneGabrielCondric</ownerDesignName>
+<engineerTo>
+<item key="40009790-805F-D52D-8FD2-35EFA8E061A8" value="true"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>030035AB-0126-6EC7-1F5F-04C4D4385B8A</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

@@ -23,7 +23,9 @@
 <engineerTo>
 <item key="40009790-805F-D52D-8FD2-35EFA8E061A8" value="true"/>
 </engineerTo>
-<use>0</use>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
 <ownDataTypeParameters>,,</ownDataTypeParameters>
 </Attribute>
 <Attribute name="Broj_isporucenih" id="DF30D68F-2D98-AD2E-1C06-A1DD5CAC9242">
@@ -33,67 +35,65 @@
 <engineerTo>
 <item key="40009790-805F-D52D-8FD2-35EFA8E061A8" value="true"/>
 </engineerTo>
-<use>0</use>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
 <ownDataTypeParameters>,,</ownDataTypeParameters>
 </Attribute>
-<Attribute name="ID_artikla" id="82451BEA-06FA-5578-39B0-A4788358D092">
+<Attribute name="ID_narudzbe" id="CF305825-477B-C0D1-39D1-523B8DD437A8">
 <createdBy>Ucenik</createdBy>
-<createdTime>2023-01-12 12:19:33 UTC</createdTime>
-<generatorID>E52193FA-7194-6B1A-8CA2-E8B238A3CA14</generatorID>
-<ownerDesignName>SlamDunkZvaneGabrielCondric</ownerDesignName>
-<engineerTo>
-<item key="40009790-805F-D52D-8FD2-35EFA8E061A8" value="true"/>
-</engineerTo>
-<referedAttribute>1FC3AE78-697C-E826-C7FB-1699B0F74CCF</referedAttribute>
-<use>0</use>
-<ownDataTypeParameters>,,</ownDataTypeParameters>
-</Attribute>
-<Attribute name="Datum_promjene" id="5512F915-B03B-73E9-4559-00D73408525F">
-<createdBy>Ucenik</createdBy>
-<createdTime>2023-01-12 12:19:33 UTC</createdTime>
-<generatorID>E52193FA-7194-6B1A-8CA2-E8B238A3CA14</generatorID>
-<ownerDesignName>SlamDunkZvaneGabrielCondric</ownerDesignName>
-<engineerTo>
-<item key="40009790-805F-D52D-8FD2-35EFA8E061A8" value="true"/>
-</engineerTo>
-<referedAttribute>F8ABACE7-D84A-EC57-617C-E567075E908C</referedAttribute>
-<use>0</use>
-<ownDataTypeParameters>,,</ownDataTypeParameters>
-</Attribute>
-<Attribute name="Vrijeme_promjene" id="C6E4A87B-EF8F-07D8-CBAC-1A83911E79F0">
-<createdBy>Ucenik</createdBy>
-<createdTime>2023-01-12 12:19:33 UTC</createdTime>
-<generatorID>E52193FA-7194-6B1A-8CA2-E8B238A3CA14</generatorID>
-<ownerDesignName>SlamDunkZvaneGabrielCondric</ownerDesignName>
-<engineerTo>
-<item key="40009790-805F-D52D-8FD2-35EFA8E061A8" value="true"/>
-</engineerTo>
-<referedAttribute>F4CBF8CE-F6C8-D339-F4FB-50E46813822C</referedAttribute>
-<use>0</use>
-<ownDataTypeParameters>,,</ownDataTypeParameters>
-</Attribute>
-<Attribute name="ID_artikla1" id="6F464ED0-2333-FE10-88DE-97565A8650D4">
-<createdBy>Ucenik</createdBy>
-<createdTime>2023-01-12 12:19:33 UTC</createdTime>
-<generatorID>E52193FA-7194-6B1A-8CA2-E8B238A3CA14</generatorID>
-<ownerDesignName>SlamDunkZvaneGabrielCondric</ownerDesignName>
-<engineerTo>
-<item key="40009790-805F-D52D-8FD2-35EFA8E061A8" value="true"/>
-</engineerTo>
-<referedAttribute>4192914F-4EB8-9393-12EE-7D67169123E0</referedAttribute>
-<use>0</use>
-<ownDataTypeParameters>,,</ownDataTypeParameters>
-</Attribute>
-<Attribute name="ID_narudzbe" id="E7A66ABC-3E63-B1DC-98CA-9027462EC63E">
-<createdBy>Ucenik</createdBy>
-<createdTime>2023-01-12 12:22:09 UTC</createdTime>
+<createdTime>2023-01-26 12:01:04 UTC</createdTime>
 <generatorID>05AEEFDA-8F78-83A7-752D-AF77D60F98C5</generatorID>
 <ownerDesignName>SlamDunkZvaneGabrielCondric</ownerDesignName>
 <engineerTo>
 <item key="40009790-805F-D52D-8FD2-35EFA8E061A8" value="true"/>
 </engineerTo>
 <referedAttribute>705FAC01-0AC4-4B0C-E4E9-0100A703528D</referedAttribute>
-<use>0</use>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="ID_artikla" id="B605EED7-67C0-AE86-0B1E-27CB58A293B6">
+<createdBy>Ucenik</createdBy>
+<createdTime>2023-01-26 12:05:39 UTC</createdTime>
+<generatorID>E52193FA-7194-6B1A-8CA2-E8B238A3CA14</generatorID>
+<ownerDesignName>SlamDunkZvaneGabrielCondric</ownerDesignName>
+<engineerTo>
+<item key="40009790-805F-D52D-8FD2-35EFA8E061A8" value="true"/>
+</engineerTo>
+<referedAttribute>1FC3AE78-697C-E826-C7FB-1699B0F74CCF</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="Datum_promjene" id="D57BBAF2-CAAD-631E-A4FA-AB1D508E76BD">
+<createdBy>Ucenik</createdBy>
+<createdTime>2023-01-26 12:09:46 UTC</createdTime>
+<generatorID>E52193FA-7194-6B1A-8CA2-E8B238A3CA14</generatorID>
+<ownerDesignName>SlamDunkZvaneGabrielCondric</ownerDesignName>
+<engineerTo>
+<item key="40009790-805F-D52D-8FD2-35EFA8E061A8" value="true"/>
+</engineerTo>
+<referedAttribute>87E2F75A-583B-8043-E551-2D592408D354</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT007</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="Vrijeme_promjene" id="1537A87D-7CFA-7108-F8C2-0DA877472C45">
+<createdBy>Ucenik</createdBy>
+<createdTime>2023-01-26 12:09:46 UTC</createdTime>
+<generatorID>E52193FA-7194-6B1A-8CA2-E8B238A3CA14</generatorID>
+<ownerDesignName>SlamDunkZvaneGabrielCondric</ownerDesignName>
+<engineerTo>
+<item key="40009790-805F-D52D-8FD2-35EFA8E061A8" value="true"/>
+</engineerTo>
+<referedAttribute>B90AB6BA-E5CD-F40B-8598-39C6C1DC959F</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT047</logicalDatatype>
 <ownDataTypeParameters>,,</ownDataTypeParameters>
 </Attribute>
 </attributes>
@@ -107,10 +107,9 @@
 </engineerTo>
 <pk>true</pk>
 <usedAttributes>
-<attributeRef>82451BEA-06FA-5578-39B0-A4788358D092</attributeRef>
-<attributeRef>5512F915-B03B-73E9-4559-00D73408525F</attributeRef>
-<attributeRef>C6E4A87B-EF8F-07D8-CBAC-1A83911E79F0</attributeRef>
-<attributeRef>6F464ED0-2333-FE10-88DE-97565A8650D4</attributeRef>
+<attributeRef>B605EED7-67C0-AE86-0B1E-27CB58A293B6</attributeRef>
+<attributeRef>D57BBAF2-CAAD-631E-A4FA-AB1D508E76BD</attributeRef>
+<attributeRef>1537A87D-7CFA-7108-F8C2-0DA877472C45</attributeRef>
 </usedAttributes>
 </identifier>
 </identifiers>

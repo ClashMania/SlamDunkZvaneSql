@@ -23,8 +23,11 @@
 <engineerTo>
 <item key="40009790-805F-D52D-8FD2-35EFA8E061A8" value="true"/>
 </engineerTo>
-<use>0</use>
-<ownDataTypeParameters>,,</ownDataTypeParameters>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>11</dataTypeSize>
+<ownDataTypeParameters>11,,</ownDataTypeParameters>
 </Attribute>
 <Attribute name="Kolicina" id="ADAF563F-DA82-B303-FD0B-2F253185B1F9">
 <createdBy>Ucenik</createdBy>
@@ -33,7 +36,9 @@
 <engineerTo>
 <item key="40009790-805F-D52D-8FD2-35EFA8E061A8" value="true"/>
 </engineerTo>
-<use>0</use>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
 <ownDataTypeParameters>,,</ownDataTypeParameters>
 </Attribute>
 </attributes>
@@ -46,6 +51,7 @@
 <item key="40009790-805F-D52D-8FD2-35EFA8E061A8" value="true"/>
 </engineerTo>
 <pk>true</pk>
+<newElementsIDs>030035AB-0126-6EC7-1F5F-04C4D4385B8A</newElementsIDs>
 <usedAttributes>
 <attributeRef>030035AB-0126-6EC7-1F5F-04C4D4385B8A</attributeRef>
 </usedAttributes>

@@ -24,19 +24,25 @@
 <engineerTo>
 <item key="40009790-805F-D52D-8FD2-35EFA8E061A8" value="true"/>
 </engineerTo>
-<use>0</use>
-<ownDataTypeParameters>,,</ownDataTypeParameters>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>20</dataTypeSize>
+<ownDataTypeParameters>20,,</ownDataTypeParameters>
 </Attribute>
-<Attribute name="ID_tima" id="843C5449-102E-EBC1-57B7-954998471E17">
+<Attribute name="ID_tima" id="77506AC1-D74C-9844-3DE7-E49BD7867737">
 <createdBy>Ucenik</createdBy>
-<createdTime>2023-01-12 12:51:31 UTC</createdTime>
+<createdTime>2023-01-26 11:56:21 UTC</createdTime>
 <generatorID>EA3A45E7-0483-7DC3-0786-061077303609</generatorID>
 <ownerDesignName>SlamDunkZvaneGabrielCondric</ownerDesignName>
 <engineerTo>
 <item key="40009790-805F-D52D-8FD2-35EFA8E061A8" value="true"/>
 </engineerTo>
 <referedAttribute>08BEF693-E62D-4C2B-F140-38B4B281D84C</referedAttribute>
-<use>0</use>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>11</dataTypeSize>
 <ownDataTypeParameters>,,</ownDataTypeParameters>
 </Attribute>
 </attributes>

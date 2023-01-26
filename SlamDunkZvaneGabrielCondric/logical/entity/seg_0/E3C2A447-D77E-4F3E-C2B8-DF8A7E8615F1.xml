@@ -23,8 +23,11 @@
 <engineerTo>
 <item key="40009790-805F-D52D-8FD2-35EFA8E061A8" value="true"/>
 </engineerTo>
-<use>0</use>
-<ownDataTypeParameters>,,</ownDataTypeParameters>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>11</dataTypeSize>
+<ownDataTypeParameters>11,,</ownDataTypeParameters>
 </Attribute>
 <Attribute name="Naziv" id="963223E2-1D99-711F-CD02-BBAB4784251D">
 <createdBy>Ucenik</createdBy>
@@ -33,7 +36,9 @@
 <engineerTo>
 <item key="40009790-805F-D52D-8FD2-35EFA8E061A8" value="true"/>
 </engineerTo>
-<use>0</use>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
 <ownDataTypeParameters>,,</ownDataTypeParameters>
 </Attribute>
 <Attribute name="Opis" id="6CE6336F-9B1E-127B-7BC9-3AD248D89FB5">
@@ -43,7 +48,9 @@
 <engineerTo>
 <item key="40009790-805F-D52D-8FD2-35EFA8E061A8" value="true"/>
 </engineerTo>
-<use>0</use>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
 <ownDataTypeParameters>,,</ownDataTypeParameters>
 </Attribute>
 <Attribute name="Boja" id="62DE0710-F143-24E9-88A6-0DF7250BB7C2">
@@ -53,7 +60,9 @@
 <engineerTo>
 <item key="40009790-805F-D52D-8FD2-35EFA8E061A8" value="true"/>
 </engineerTo>
-<use>0</use>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
 <ownDataTypeParameters>,,</ownDataTypeParameters>
 </Attribute>
 <Attribute name="Kategorija" id="EF4ECEF8-2A37-FA57-9C3F-7B8A1A82C1A8">
@@ -63,7 +72,9 @@
 <engineerTo>
 <item key="40009790-805F-D52D-8FD2-35EFA8E061A8" value="true"/>
 </engineerTo>
-<use>0</use>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
 <ownDataTypeParameters>,,</ownDataTypeParameters>
 </Attribute>
 <Attribute name="Velicina" id="C83BB468-BEED-9F20-CFEA-5669343FE3C5">
@@ -74,55 +85,52 @@
 <item key="40009790-805F-D52D-8FD2-35EFA8E061A8" value="true"/>
 </engineerTo>
 <nullsAllowed>true</nullsAllowed>
-<use>0</use>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
 <ownDataTypeParameters>,,</ownDataTypeParameters>
 </Attribute>
-<Attribute name="ID_skladista" id="9983FB9B-926E-6A95-0E41-44789F21A35C">
+<Attribute name="ID_skladista" id="13D7AF5F-0F2B-4ADA-A45B-A7D62566D635">
 <createdBy>Ucenik</createdBy>
-<createdTime>2023-01-12 12:09:45 UTC</createdTime>
+<createdTime>2023-01-26 12:07:49 UTC</createdTime>
 <generatorID>FB051FF1-798C-8679-959D-94CA1CB2CE93</generatorID>
 <ownerDesignName>SlamDunkZvaneGabrielCondric</ownerDesignName>
 <engineerTo>
 <item key="40009790-805F-D52D-8FD2-35EFA8E061A8" value="true"/>
 </engineerTo>
 <referedAttribute>030035AB-0126-6EC7-1F5F-04C4D4385B8A</referedAttribute>
-<use>0</use>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>11</dataTypeSize>
 <ownDataTypeParameters>,,</ownDataTypeParameters>
 </Attribute>
-<Attribute name="Datum_promjene" id="F8ABACE7-D84A-EC57-617C-E567075E908C">
+<Attribute name="Datum_promjene" id="87E2F75A-583B-8043-E551-2D592408D354">
 <createdBy>Ucenik</createdBy>
-<createdTime>2023-01-12 12:16:18 UTC</createdTime>
+<createdTime>2023-01-26 12:09:46 UTC</createdTime>
 <generatorID>08A672AC-9C14-5A68-5A60-7B542228A471</generatorID>
 <ownerDesignName>SlamDunkZvaneGabrielCondric</ownerDesignName>
 <engineerTo>
 <item key="40009790-805F-D52D-8FD2-35EFA8E061A8" value="true"/>
 </engineerTo>
 <referedAttribute>E48CF5CE-9A88-3942-E845-922A65FCBC60</referedAttribute>
-<use>0</use>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT007</logicalDatatype>
 <ownDataTypeParameters>,,</ownDataTypeParameters>
 </Attribute>
-<Attribute name="Vrijeme_promjene" id="F4CBF8CE-F6C8-D339-F4FB-50E46813822C">
+<Attribute name="Vrijeme_promjene" id="B90AB6BA-E5CD-F40B-8598-39C6C1DC959F">
 <createdBy>Ucenik</createdBy>
-<createdTime>2023-01-12 12:16:18 UTC</createdTime>
+<createdTime>2023-01-26 12:09:46 UTC</createdTime>
 <generatorID>08A672AC-9C14-5A68-5A60-7B542228A471</generatorID>
 <ownerDesignName>SlamDunkZvaneGabrielCondric</ownerDesignName>
 <engineerTo>
 <item key="40009790-805F-D52D-8FD2-35EFA8E061A8" value="true"/>
 </engineerTo>
 <referedAttribute>634B250D-6586-5BF9-87A7-8FCA3890E5D7</referedAttribute>
-<use>0</use>
-<ownDataTypeParameters>,,</ownDataTypeParameters>
-</Attribute>
-<Attribute name="ID_artikla1" id="4192914F-4EB8-9393-12EE-7D67169123E0">
-<createdBy>Ucenik</createdBy>
-<createdTime>2023-01-12 12:16:18 UTC</createdTime>
-<generatorID>08A672AC-9C14-5A68-5A60-7B542228A471</generatorID>
-<ownerDesignName>SlamDunkZvaneGabrielCondric</ownerDesignName>
-<engineerTo>
-<item key="40009790-805F-D52D-8FD2-35EFA8E061A8" value="true"/>
-</engineerTo>
-<referedAttribute>F102B013-BD4B-3FAA-621D-6476D1739B44</referedAttribute>
-<use>0</use>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT047</logicalDatatype>
 <ownDataTypeParameters>,,</ownDataTypeParameters>
 </Attribute>
 </attributes>
@@ -135,11 +143,11 @@
 <item key="40009790-805F-D52D-8FD2-35EFA8E061A8" value="true"/>
 </engineerTo>
 <pk>true</pk>
+<newElementsIDs>08A672AC-9C14-5A68-5A60-7B542228A471,1FC3AE78-697C-E826-C7FB-1699B0F74CCF</newElementsIDs>
 <usedAttributes>
+<attributeRef>87E2F75A-583B-8043-E551-2D592408D354</attributeRef>
+<attributeRef>B90AB6BA-E5CD-F40B-8598-39C6C1DC959F</attributeRef>
 <attributeRef>1FC3AE78-697C-E826-C7FB-1699B0F74CCF</attributeRef>
-<attributeRef>F8ABACE7-D84A-EC57-617C-E567075E908C</attributeRef>
-<attributeRef>F4CBF8CE-F6C8-D339-F4FB-50E46813822C</attributeRef>
-<attributeRef>4192914F-4EB8-9393-12EE-7D67169123E0</attributeRef>
 </usedAttributes>
 </identifier>
 </identifiers>

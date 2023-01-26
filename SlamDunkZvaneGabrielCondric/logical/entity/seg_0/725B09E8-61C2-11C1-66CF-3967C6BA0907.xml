@@ -23,8 +23,11 @@
 <engineerTo>
 <item key="40009790-805F-D52D-8FD2-35EFA8E061A8" value="true"/>
 </engineerTo>
-<use>0</use>
-<ownDataTypeParameters>,,</ownDataTypeParameters>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>11</dataTypeSize>
+<ownDataTypeParameters>11,,</ownDataTypeParameters>
 </Attribute>
 <Attribute name="Naruceni_atikl" id="16AE4E4D-1A66-2BC4-6F7E-9E039E9DF3E9">
 <createdBy>Ucenik</createdBy>
@@ -33,8 +36,11 @@
 <engineerTo>
 <item key="40009790-805F-D52D-8FD2-35EFA8E061A8" value="true"/>
 </engineerTo>
-<use>0</use>
-<ownDataTypeParameters>,,</ownDataTypeParameters>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>20</dataTypeSize>
+<ownDataTypeParameters>20,,</ownDataTypeParameters>
 </Attribute>
 <Attribute name="Datum" id="27AA4D5A-497F-BA89-BECA-47BACB67F6EE">
 <createdBy>Ucenik</createdBy>
@@ -43,7 +49,9 @@
 <engineerTo>
 <item key="40009790-805F-D52D-8FD2-35EFA8E061A8" value="true"/>
 </engineerTo>
-<use>0</use>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT007</logicalDatatype>
 <ownDataTypeParameters>,,</ownDataTypeParameters>
 </Attribute>
 <Attribute name="Vrijeme" id="F5779C10-8E37-F1C7-36C5-7FC69C05B143">
@@ -53,19 +61,24 @@
 <engineerTo>
 <item key="40009790-805F-D52D-8FD2-35EFA8E061A8" value="true"/>
 </engineerTo>
-<use>0</use>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT047</logicalDatatype>
 <ownDataTypeParameters>,,</ownDataTypeParameters>
 </Attribute>
-<Attribute name="ID_kupca" id="C8415D22-3799-42C4-45E3-EF96854084C5">
+<Attribute name="ID_kupca" id="33CCEE64-E11E-DB80-6D42-BF2A4DDD6108">
 <createdBy>Ucenik</createdBy>
-<createdTime>2023-01-12 12:28:17 UTC</createdTime>
+<createdTime>2023-01-26 11:57:59 UTC</createdTime>
 <generatorID>1AF75A5E-8E78-F26B-DF31-601DF0E52A5B</generatorID>
 <ownerDesignName>SlamDunkZvaneGabrielCondric</ownerDesignName>
 <engineerTo>
 <item key="40009790-805F-D52D-8FD2-35EFA8E061A8" value="true"/>
 </engineerTo>
 <referedAttribute>F88CCC83-4C9F-EC51-9D1C-59B8E7E2EA11</referedAttribute>
-<use>0</use>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>11</dataTypeSize>
 <ownDataTypeParameters>,,</ownDataTypeParameters>
 </Attribute>
 </attributes>
@@ -78,6 +91,7 @@
 <item key="40009790-805F-D52D-8FD2-35EFA8E061A8" value="true"/>
 </engineerTo>
 <pk>true</pk>
+<newElementsIDs>705FAC01-0AC4-4B0C-E4E9-0100A703528D</newElementsIDs>
 <usedAttributes>
 <attributeRef>705FAC01-0AC4-4B0C-E4E9-0100A703528D</attributeRef>
 </usedAttributes>
